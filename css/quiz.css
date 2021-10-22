@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+body {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
+  overflow: hidden;
+}
+.startquiz {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.startquiz > #marvel {
+  background-color: rgba(255, 0, 0, 0.877);
+  padding: 5% 5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  text-align: center;
+}
+.startquiz > #marvel > h3 {
+  color: white;
+  /* border: solid 2px white; */
+  font-size: 10vw;
+  /* letter-spacing: -0.1em; */
+  display: inline;
+  padding: 1%;
+  width: 50%;
+  font-family: "Archivo Black", sans-serif;
+  /* text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; */
+}
+.startquiz > div > p {
+  color: white;
+  font-size: 4vw;
+}
+.btn-primary {
+  background-color: rgba(255, 0, 0, 0.877);
+  border: none;
+  min-height: 48px;
+  font-size: 2vw;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.527);
+  border: none;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.527);
+  border: none;
+}
+
+.btn-primary > a {
+  color: white;
+  text-decoration: none;
+}
