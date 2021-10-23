@@ -1,1 +1,1 @@
-# bg-generator
+# marvel-quiz
